@@ -1,0 +1,40 @@
+<style>
+  h1 a{
+    text-decoration: none;
+  }
+  p {
+    text-align: right;
+  }
+  img {
+
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  #middle {
+    text-align: center;
+    text-decoration: none;
+  }
+  #grid {
+    border-bottom: 5px solid black;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    margin: 0;
+  }
+  #weather {
+    font-size: 20px;
+    text-align: left;
+    border-bottom: 1px solid black;
+    }
+  #smallgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  #img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+</style>
